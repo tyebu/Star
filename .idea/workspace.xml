@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Star_w:war exploded" />
+      <artifact name="StarAdmin:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c724005-f04f-4a27-8322-0bf08a46cb52" name="Default Changelist" comment="" />
+    <list default="true" id="1c724005-f04f-4a27-8322-0bf08a46cb52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarDao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarDao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarDao/StarDao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarPojo/StarPojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarService/StarService.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/StarService/target/" />
@@ -25,11 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="1263">
+              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1510">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/faq.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -48,13 +84,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>StarParent</find>
+      <find>assets</find>
     </findStrings>
     <replaceStrings>
       <replace>Star</replace>
+      <replace>/assets</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\java_workspace\Star</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,6 +121,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/StarPojo/pom.xml" />
         <option value="$PROJECT_DIR$/StarService/pom.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html" />
       </list>
     </option>
   </component>
@@ -94,17 +136,19 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="11" />
     <option name="y" value="67" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,11 +157,55 @@
               <item name="Star" type="b2602c69:ProjectViewProjectNode" />
               <item name="Star" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,11 +503,12 @@
       <workItem from="1560131615970" duration="839000" />
       <workItem from="1560560209949" duration="20000" />
       <workItem from="1562248074481" duration="776000" />
+      <workItem from="1562250101104" duration="1130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32299000" />
+    <option name="totallyTimeSpent" value="33429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,16 +523,16 @@
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3139183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989899" visible="true" weight="0.3184569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Web" order="2" sideWeight="0.5010101" side_tool="true" weight="0.3184569" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.77458394" visible="true" weight="0.492635" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77382755" visible="true" weight="0.3704918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3289689" />
@@ -452,9 +541,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.22541603" side_tool="true" visible="true" weight="0.492635" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.22617246" side_tool="true" visible="true" weight="0.3704918" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49924356" weight="0.5335516" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49848714" weight="0.05409836" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
@@ -549,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -684,8 +766,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="1263">
+          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1510">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
