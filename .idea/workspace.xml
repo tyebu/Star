@@ -6,15 +6,244 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c724005-f04f-4a27-8322-0bf08a46cb52" name="Default Changelist" comment="">
+    <list default="true" id="1c724005-f04f-4a27-8322-0bf08a46cb52" name="Default Changelist" comment="新增页面">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/user/SystemUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Star.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/500.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarDao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarDao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarService-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarDao/StarDao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarPojo/StarPojo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarService/StarService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/ace-ie.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/ace-ie.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/ace-part2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/ace-part2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/ace-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/ace-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/ace-skins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/ace-skins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/ace.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/ace.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-duallistbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-editable.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-editable.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-multiselect.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap-timepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/chosen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/colorbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/colorbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/daterangepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/daterangepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/dropzone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/dropzone.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/fonts.googleapis.com.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/fonts.googleapis.com.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/fullcalendar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/images/meteorshower2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/images/meteorshower2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/images/pattern.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/images/pattern.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/jquery-ui.custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/jquery-ui.custom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/jquery.gritter.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/jquery.gritter.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/prettify.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/prettify.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/ui.jqgrid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/ui.jqgrid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/font-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/font-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/avatar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/avatar1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/avatar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/avatar2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/avatar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/avatar3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/avatar4.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/avatar4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/profile-pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/profile-pic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/avatars/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/avatars/user.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/email/email1.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/email/email1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/email/email2.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/email/email2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/email/email3.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/email/email3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/email/email4.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/email/email4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/image-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/image-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/image-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/image-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/image-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/image-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/image-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/image-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/image-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/image-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/image-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/image-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/thumb-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/thumb-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/thumb-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/thumb-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/thumb-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/thumb-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/thumb-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/thumb-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/thumb-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/thumb-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/gallery/thumb-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/gallery/thumb-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/placeholder/165x90.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/placeholder/165x90.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/placeholder/255x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/placeholder/255x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/placeholder/530x270.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/placeholder/530x270.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/images/placeholder/550x280.png" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/images/placeholder/550x280.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/ace-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/ace-editable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/ace-elements.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/ace-elements.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/ace-extra.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/ace-extra.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/ace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/ace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/autosize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/autosize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-editable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-markdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-markdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-multiselect.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-tag.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-tag.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-timepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/buttons.colVis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/buttons.colVis.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/buttons.flash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/buttons.flash.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/buttons.html5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/buttons.html5.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/buttons.print.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/buttons.print.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/chosen.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/dataTables.buttons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/dataTables.buttons.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/dataTables.select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/dataTables.select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/daterangepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/daterangepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/dropzone.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/grid.locale-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/grid.locale-en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/holder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/holder.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/html5shiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery-2.1.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery-additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery-additional-methods.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery-typeahead.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery-typeahead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery-ui.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.bootstrap-duallistbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.colorbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.colorbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.easypiechart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.easypiechart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.flot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.flot.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.flot.pie.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.flot.pie.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.flot.resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.flot.resize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.gritter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.gritter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.hotkeys.index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.hotkeys.index.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.inputlimiter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.inputlimiter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.jqGrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.jqGrid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.knob.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.knob.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.maskedinput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.mobile.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.nestable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.nestable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.raty.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.raty.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.sparkline.index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.sparkline.index.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/markdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/markdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/prettify.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/prettify.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/spin.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/spin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/spinbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/spinbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/tree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/tree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/js/wizard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/js/wizard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/swf/flashExport.swf" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/swf/flashExport.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/com/star/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/config/jdbc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/config/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/config/property.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/mybatisConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarDao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/StarService-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/druid-1.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/jackson-annotations-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/junit-4.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-context-support-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-oxm-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/system/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/StarAdmin/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/classes/com/star/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/target/classes/com/star/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarAdmin/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StarAdmin/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarDao/src/main/resources/mapper/User/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StarDao/src/main/resources/mapper/user/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarDao/target/classes/com/star/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarDao/target/classes/mapper/User/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StarDao/target/classes/mapper/User/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/config/jdbc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/config/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/config/property.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/mybatisConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/StarDao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/StarService-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/druid-1.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/jackson-annotations-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/junit-4.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-context-support-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-oxm-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/system/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_w/target/Star_w/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,40 +261,43 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1263">
-              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1510">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="182">
+              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/controller/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="89" column="29" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -75,20 +307,57 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>StarParent</find>
-      <find>assets</find>
+      <find>system</find>
+      <find>UI &amp;</find>
+      <find>system/</find>
+      <find>/system</find>
+      <find>bootstrap.min.js</find>
+      <find>html5shiv</find>
+      <find>jquery-1.11.3.min.js</find>
+      <find>/assets</find>
+      <find>bootstrap.min.css</find>
+      <find>Dashboard</find>
+      <find>Table</find>
+      <find>font-awesome</find>
+      <find>Tables</find>
+      <find>logging</find>
+      <find>log4</find>
+      <find>fast</find>
+      <find>slf4j</find>
+      <find>commons-lo</find>
+      <find>securityManager</find>
+      <find>shiroSessionM</find>
+      <find>sessionValidationScheduler</find>
+      <find>remember</find>
+      <find>rememberMeCookie</find>
+      <find>shiroFilter</find>
+      <find>sessionFactoryBean</find>
+      <find>sessionManager</find>
+      <find>propertyConfigurer</find>
+      <find>formAuthenticationFilter</find>
+      <find>sysUserFilter</find>
+      <find>sysUser</find>
     </findStrings>
     <replaceStrings>
       <replace>Star</replace>
       <replace>/assets</replace>
+      <replace>system/assets</replace>
+      <replace>/system</replace>
+      <replace>system</replace>
+      <replace>&lt;%=basePath%&gt;</replace>
+      <replace>&lt;%=basePath%&gt;system/</replace>
+      <replace>&lt;%=basePath%&gt;system/assets</replace>
+      <replace>system/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\java_workspace\Star</dir>
@@ -100,41 +369,88 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/TestController.java" />
         <option value="$PROJECT_DIR$/StarDao/pom.xml" />
-        <option value="$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/StarDao/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/test/jdbc.properties" />
-        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/mybatisConfig.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/pom.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/404.html" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/500.html" />
-        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html" />
-        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/config/jdbc.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/config/property.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/config/mybatis.xml" />
-        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/Star_w/pom.xml" />
         <option value="$PROJECT_DIR$/Star_w/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/StarPojo/pom.xml" />
         <option value="$PROJECT_DIR$/StarService/pom.xml" />
         <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/public/head.html" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/head.html" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.jsp" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/404.js.jsp" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/ErrorController.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/404_error.jsp" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/index.jsp" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/public/head.jsp" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/BaseController.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/config/ehcache-shiro.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/filter/SysUserFilter.java" />
+        <option value="$PROJECT_DIR$/StarService/src/main/java/com/star/service/SystemAdminService.java" />
+        <option value="$PROJECT_DIR$/StarService/src/main/java/com/star/service/user/SystemUserService.java" />
+        <option value="$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/StarDao/src/main/resources/mapper/user/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/StarPojo/src/main/java/com/star/pojo/SystemUser.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/TestController.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/controller/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/mybatisConfig.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/config/mybatis.xml" />
+        <option value="$PROJECT_DIR$/StarService/src/main/java/com/star/service/impl/user/SystemUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/user/UserDao.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/java/com/star/shiro/ShiroSecurityRealm.java" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/StarAdmin/src/main/resources/config/spring-shiro.xml" />
       </list>
     </option>
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/source/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\source\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="D:/source/maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\source\maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Star" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Star" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="11" />
@@ -148,8 +464,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +495,101 @@
               <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="system_static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Star" type="b2602c69:ProjectViewProjectNode" />
@@ -202,30 +610,182 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarPojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarPojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarPojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarPojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarPojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="StarService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="star" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my_management\Star\StarAdmin\src\main\resources" />
+      <recent name="E:\my_management\Star\StarAdmin\src\main\webapp\system" />
+      <recent name="E:\my_management\Star\StarAdmin\src\main\webapp\WEB-INF\system" />
+      <recent name="E:\my_management\Star\StarAdmin\src\main\webapp\WEB-INF" />
+      <recent name="E:\my_management\Star\StarAdmin\src\main\webapp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my_management\Star\StarAdmin\src\main\webapp\WEB-INF\system" />
       <recent name="E:\java_workspace\StarParent\Star_w\src\main\webapp" />
       <recent name="E:\java_workspace\StarParent\Star_w\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\java_workspace\StarParent\StarDao\src\main\resources\mapper\User" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,57 +801,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.admin">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Star" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Star" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="StarAdmin:war exploded">
           <settings>
@@ -313,6 +824,21 @@
       <RunnerSettings RunnerId="JRebel Debug">
         <option name="DEBUG_PORT" value="51999" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -381,7 +907,6 @@
       </method>
     </configuration>
     <configuration name="star_w" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -405,6 +930,21 @@
       <RunnerSettings RunnerId="JRebel Debug">
         <option name="DEBUG_PORT" value="62207" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -503,12 +1043,32 @@
       <workItem from="1560131615970" duration="839000" />
       <workItem from="1560560209949" duration="20000" />
       <workItem from="1562248074481" duration="776000" />
-      <workItem from="1562250101104" duration="1130000" />
+      <workItem from="1562250101104" duration="1899000" />
+      <workItem from="1562383235868" duration="7992000" />
+      <workItem from="1562482774006" duration="8920000" />
+      <workItem from="1563680051515" duration="947000" />
+      <workItem from="1563681062082" duration="90000" />
+      <workItem from="1563681204633" duration="8528000" />
+      <workItem from="1563804269798" duration="1148000" />
+      <workItem from="1563890848111" duration="3553000" />
+      <workItem from="1564058023368" duration="6011000" />
+      <workItem from="1564196649178" duration="14921000" />
+      <workItem from="1564221733802" duration="1856000" />
+      <workItem from="1564223648302" duration="994000" />
+      <workItem from="1564224697672" duration="1769000" />
     </task>
+    <task id="LOCAL-00001" summary="新增页面">
+      <created>1562251776362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562251776362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33429000" />
+    <option name="totallyTimeSpent" value="90927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,39 +1080,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989899" visible="true" weight="0.3184569" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8778626" visible="true" weight="0.2912254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" sideWeight="0.5010101" side_tool="true" weight="0.3184569" />
+      <window_info id="Web" order="2" sideWeight="0.122137405" side_tool="true" visible="true" weight="0.2912254" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="UI Designer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77382755" visible="true" weight="0.3704918" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49016643" weight="0.4885246" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7594554" visible="true" weight="0.35573772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.22239032" side_tool="true" weight="0.39443535" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.24054463" side_tool="true" visible="true" weight="0.35573772" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.22617246" side_tool="true" visible="true" weight="0.3704918" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50378215" side_tool="true" weight="0.38196722" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49848714" weight="0.05409836" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49092284" weight="0.17704917" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
+      <window_info anchor="bottom" id="Application Servers" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.120272316" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
@@ -588,129 +1156,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增页面" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarService/src/main/java/com/star/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarDao/src/main/resources/mapper/User/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/scheduling/config/spring-task.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="317" column="14" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/property.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/mybatisConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/jdbc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/test/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Star_w/src/main/resources/config/jdbc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -764,34 +1214,329 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1263">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/assets/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/system_static/assets/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html">
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/head.html" />
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1510">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1735#1741#0" expanded="true" />
+            <element signature="e#8808#8814#0" expanded="true" />
+            <element signature="e#8872#8878#0" expanded="true" />
+            <element signature="e#8923#8929#0" expanded="true" />
+            <element signature="e#8987#8993#0" expanded="true" />
+            <element signature="e#9038#9044#0" expanded="true" />
+            <element signature="e#9104#9110#0" expanded="true" />
+            <element signature="e#9111#9117#0" expanded="true" />
+            <element signature="e#9118#9124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.html">
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="34" lean-forward="true" selection-end-line="2398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/404.js.jsp" />
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/error-500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="1099" column="11" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="1099" selection-end-column="11" />
+          <folding>
+            <element signature="n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/error-404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="1110" lean-forward="true" selection-start-line="1110" selection-end-line="1110" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/404_error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1446">
+          <caret line="1068" column="39" selection-start-line="1068" selection-start-column="39" selection-end-line="1068" selection-end-column="39" />
+          <folding>
+            <element signature="e#16553#16558#0#HTML" expanded="true" />
+            <element signature="e#20126#20131#0#HTML" expanded="true" />
+            <element signature="e#24152#24157#0#HTML" expanded="true" />
+            <element signature="e#25778#25783#0#HTML" expanded="true" />
+            <element signature="e#26088#26093#0#HTML" expanded="true" />
+            <element signature="e#30170#30175#0#HTML" expanded="true" />
+            <element signature="e#34766#34772#0#HTML" expanded="true" />
+            <element signature="e#40876#40882#0#HTML" expanded="true" />
+            <element signature="e#40924#40930#0#HTML" expanded="true" />
+            <element signature="e#40931#40937#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/500_error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26312">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/public/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/jqgrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7614">
+          <caret line="1103" column="28" selection-start-line="1103" selection-start-column="16" selection-end-line="1103" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarService/src/main/java/com/star/service/SystemAdminService.java" />
+    <entry file="file://$PROJECT_DIR$/StarPojo/src/main/java/com/star/pojo/test.java" />
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/system/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/controller/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/test/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5642">
+          <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarService/src/main/java/com/star/service/user/SystemUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarDao/src/main/resources/mapper/user/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/ehcache-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarPojo/src/main/java/com/star/pojo/SystemUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/shiro/ShiroSecurityRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarService/src/main/java/com/star/service/impl/user/SystemUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/property.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/filter/SysUserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repository/org/logback-extensions/logback-ext-spring/0.1.1/logback-ext-spring-0.1.1.jar!/ch/qos/logback/ext/spring/LogbackConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/mybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarDao/src/main/java/com/star/dao/user/SystemUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/java/com/star/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarAdmin/src/main/resources/config/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -801,12 +1546,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>StarService:war</last-edited>
+          <last-edited>Star_w:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -837,7 +1581,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -849,12 +1593,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Star_w</last-edited>
+          <last-edited>StarAdmin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

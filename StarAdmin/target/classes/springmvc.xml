@@ -10,7 +10,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <!--打开注解-->
     <mvc:annotation-driven/>
-    <!--springMvc配置扫描包,只注册带有Controller注解的包-->
+    <!--springMvc配置扫描包,只扫描带有Controller注解的包-->
     <context:component-scan base-package="com.star" use-default-filters="false">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
@@ -18,16 +18,16 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     <!--静态资源放置-->
-    <mvc:resources mapping="/system/**" location="/system/"></mvc:resources>
+    <mvc:resources mapping="/system_static/**" location="/system_static/"></mvc:resources>
     <!--配置首页跳转页面-->
-    <mvc:view-controller path="/" view-name="system/login"/>
+    <mvc:view-controller path="/" view-name="/system/login"/>
     <mvc:default-servlet-handler/>
-    <!--配置HTML视图-->
+    <!--配置jsp视图-->
     <bean id="htmlViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!--如果配置有多个视图则需要下面这一行，表示解析的优先级-->
         <!--<property name="order" value="0"/>-->
         <property name="prefix" value="/WEB-INF/"/>
-        <property name="suffix" value=".html"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
     <!--文件上传-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
